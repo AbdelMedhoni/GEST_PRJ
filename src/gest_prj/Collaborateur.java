@@ -23,19 +23,18 @@ public class Collaborateur implements InterCollaborateur {
             T.add(new Competence(3,"Volonte"));
             T.add(new Competence(4,"Resistance"));
             return T;
+            
             }
 
-    @Override
+    
     public void optiCompetence(ArrayList<Competence> Cmp, Collaborateur C) {
 
     }
 
-    @Override
     public void optiProfil(Profil P, Collaborateur C) {
 
     }
 
-    @Override
     public ArrayList<Competence> getCompCollaborateur(Collaborateur C) {
             return null;
 
